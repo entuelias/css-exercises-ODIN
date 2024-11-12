@@ -1,0 +1,11 @@
+.click-m,.n-click{
+    font-size: 28px;
+    font-style: Helvetica,'Times New Roman',sans-serif;
+}
+.click-m{
+    background-color: black;
+    color: white;
+}
+.n-click{
+    background-color:yellow;
+}
