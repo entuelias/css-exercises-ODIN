@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -24,3 +26,51 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+ul{
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #666;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #eeeeee;
+
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+/* button{
+  margin-top:8px;
+  padding: 8px;
+  font-size: 15px;
+ 
+} */
+/* SOLUTION */
+button {
+  padding: 8px 16px;
+}
+.content{
+  gap: 16px;
+}
+/* you can make the header and footer in the same with no separation */
+
